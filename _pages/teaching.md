@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 
+## Courses
 
 * ECON 103 - Principles of Macroeconomics
 * ECON 260 - Intermediate Microeconomics [(Github repo)](https://github.com/lhebates/BatesEcon260)

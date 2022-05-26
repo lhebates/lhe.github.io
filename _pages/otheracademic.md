@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /otheracademic/
-title: "Other Academic"
+title: "Referee & Conference"
 author_profile: true
 ---
 
