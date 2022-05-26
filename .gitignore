@@ -5,5 +5,4 @@
 .sass-cache
 _site
 Gemfile.lock
-_archive
 .code-workspace
