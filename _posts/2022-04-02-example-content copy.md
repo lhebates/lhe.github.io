@@ -1,6 +1,10 @@
 ---
-layout: post
-title: Example content
+title: 'Example content'
+date: 2022-05-26
+permalink: /posts/2022/05/blog-post-1/
+tags:
+  - testing posts
+  - homepage_post
 ---
 
 
@@ -41,16 +45,37 @@ Indented code block:
 import pandas as pd
 {% endhighlight %}
 
+
+{% highlight Stata %}
+* Run a series of linear regressions
+sysuse auto, clear
+foreach v of varlist mpg weight-turn {
+	regress price `v', robust
+}
+
+regress price i.foreign
+local num_obs = e(N)
+global myglobal = 4
+{% endhighlight %}
+
+
 Regular code block:
 ``` python
 # comments in python
 import pandas as pd
 ```
 
+<!-- stata highlighting doesn't work somehow -->
+```
+* Run a series of linear regressions
+sysuse auto, clear
+foreach v of varlist mpg weight-turn {
+	regress price `v', robust
+}
 
-``` stata
-* comments in stata
-use data.dta
+regress price i.foreign
+local num_obs = e(N)
+global myglobal = 4
 ```
 
 ``` R
@@ -59,7 +84,7 @@ library(BLPestimatoR)
 library(pracma)
 
 set.seed(123) # set the seed
-setwd(
+setwd(...)
 ```
 
 
@@ -148,5 +173,3 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 -----
-
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
