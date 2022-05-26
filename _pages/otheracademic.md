@@ -1,10 +1,8 @@
 ---
+layout: archive
 permalink: /otheracademic/
 title: "Other Academic"
 author_profile: true
-redirect_from: 
-  - /otheracademic/
-  - /otheracademic.html
 ---
 
 ## Journal Referee

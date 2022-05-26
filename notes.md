@@ -2,9 +2,6 @@
 permalink: /otheracademic/
 title: "Other Academic"
 author_profile: true
-redirect_from: 
-  - /otheracademic/
-  - /otheracademic.html
 ---
 
 ## Locations of key files/directories
