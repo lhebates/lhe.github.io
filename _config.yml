@@ -1,0 +1,26 @@
+# Build settings
+markdown:            kramdown
+
+
+# Setup
+title:               Leshui He
+tagline:             ''
+description:         ''
+url:                 https://github.com/lhebates/lhe.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Leshui He
+  linkedin:          https://www.linkedin.com/in/leshui-he-24446835
+  email:             leshui.he@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             0.0.1
+google_analytics_id: #UA-XXXX-Y
