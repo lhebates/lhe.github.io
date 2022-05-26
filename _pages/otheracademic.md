@@ -12,7 +12,7 @@ author_profile: true
 * Journal of Institutional and Theoretical Economics
 * Management Science
 * Journal of Law, Economics & Organization
-​
+
 
 ## Conference and Seminar Presentations
 * 2022 Society for Institutional & Organizational Economics annual conference, University of Toronto
