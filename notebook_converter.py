@@ -4,13 +4,13 @@
 notebook_converter.py
 
 Copyright 2021 Abubakar Yagoub
-Contact: blacksuan19.tk
+
+Modified by Leshui He, 2022
 
 This script converts a jupyter notebook to markdown
 and moves converted markdown to posts and images to assets.
 Requirements:
 - jupyter (for converting notebooks to md)
-- imagemagick (for adding background to images)
 '''
 
 import glob
@@ -22,17 +22,14 @@ post_dir = "_posts/"
 notebooks_dir = "notebooks/"
 assets_dir = "assets/images/"
 current_date = datetime.today().strftime('%Y-%m-%d')
+# perm_link_str = datetime.strftime('/posts/%Y/%m/:title/')
 front_matter = """---
 title: {}
-layout: post
-project: true
-permalink: "/projects/:title/"
-image: /assets/images/ds.jpg
-source:
+permalink: "/posts/:title/"
 tags:
-  - data-science
-  - machine-learning
-  - project
+  - stata
+  - python
+excerpt_separator: <!--more-->
 ---\n\n"""
 
 # get all notebook files
@@ -71,14 +68,7 @@ for file in filenames:
     f.seek(0)
     f.write(front_matter.format(name.replace("-", " ").title()))
     f.writelines(content)
-    f.close()
-
-    # add background color so text is visible in images
-    # os.system(f"mogrify -background white -flatten {notebooks_dir}{name}_files/*")
-
-    # test: convert svg to png using mogrify
-    # os.system(f"mogrify -format png {notebooks_dir}{name}_files/*")
-    
+    f.close()    
 
     # move file and assets
     os.system(f"mv {new_name} {post_dir}")

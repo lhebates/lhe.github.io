@@ -1,7 +1,7 @@
 ---
 title: 'Example content'
 date: 2022-05-25
-permalink: /posts/2022/05/blog-post-1/
+permalink: /posts/:title/
 tags:
   - testing posts
   - homepage_post

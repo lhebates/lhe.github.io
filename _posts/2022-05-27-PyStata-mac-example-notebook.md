@@ -1,14 +1,11 @@
 ---
 title: Pystata Mac Example Notebook
-layout: post
-project: true
-permalink: "/projects/:title/"
-image: /assets/images/ds.jpg
-source:
+permalink: "/posts/:title/"
 tags:
   - data-science
   - machine-learning
   - project
+excerpt_separator: <!--more-->
 ---
 
 ```python

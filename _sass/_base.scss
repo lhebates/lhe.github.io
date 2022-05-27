@@ -126,10 +126,15 @@ a {
 
 tt, code, kbd, samp, pre {
   font-family: $monospace;
+  font-size: $type-size-5;
 }
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
+}
+
+pre > code {
+  font-family: $monospace;
 }
 
 p > code,
