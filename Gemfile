@@ -26,4 +26,5 @@ group :jekyll_plugins do
   gem 'hawkins'
   gem 'webrick'
   gem 'rouge'
+  gem 'jekyll-spaceship'
 end
