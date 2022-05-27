@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -26,7 +26,7 @@ I currently teach:
 
 {% include base_path %}
 
-{% for post in site.posts reversed %}
+{% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}
 
