@@ -7,7 +7,7 @@ author_profile: true
 
 ## Publication in Economics
 
-* Does Amazon Exercise its Market Power? Evidence from Toys R Us, with Imke Reimers and Benjamin R. Shiller, *Journal of Law and Economics*, Forthcoming
+* Does Amazon Exercise its Market Power? Evidence from Toys R Us, with Imke Reimers and Benjamin R. Shiller, *Journal of Law and Economics*, 2023 [(link)]([link](https://www.journals.uchicago.edu/doi/abs/10.1086/720824))
 * Openness and Coronavirus-related Xenophobia: The Roles of Trade and Migration, with Jun He, Ming He, Wen Zhou and Xuanwen Nie, *PLOS ONE*, 2021 [(link)]([link](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249579))
 * A Theory of Pre-filing Settlement and Patent Assertion Entities, *International Journal of Industrial Organization*, 2020 [(link)](https://www.sciencedirect.com/science/article/pii/S0167718720300400)
 * Beyond Asset Ownership: Employment and Asset-less Firms in a Property-Rights Theory of the Firm, *Journal of Economic Behavior & Organization*, 2016 [(link)](https://www.sciencedirect.com/science/article/pii/S0167268116301627)
