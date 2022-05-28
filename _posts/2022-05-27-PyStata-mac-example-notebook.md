@@ -2,9 +2,8 @@
 title: Pystata Mac Example Notebook
 permalink: "/posts/:title/"
 tags:
-  - data-science
-  - machine-learning
-  - project
+  - stata
+  - python
 excerpt_separator: <!--more-->
 ---
 
@@ -13,7 +12,7 @@ excerpt_separator: <!--more-->
 import stata_setup
 stata_setup.config('/Applications/Stata/', 'se')
 ```
-
+<!--more-->
     
       ___  ____  ____  ____  ____ ®
      /__    /   ____/   /   ____/      17.0

@@ -43,7 +43,7 @@ def check_exists(file):
     return False
 
 # debug
-file = filenames[0]
+# file = filenames[0]
 
 for file in filenames:
     # get filename without directory prefix and extension
@@ -61,6 +61,8 @@ for file in filenames:
 
     f = open(new_name, "r+")
     content = f.readlines()
+    # insert "<!--more-->" at the first linebreak for exerpt generation in Jekyll
+    content.insert(content.index('\n'), "<!--more-->")
     for i, line in enumerate(content):
         # fix assets path
         content[i] = content[i].replace("![png](", "![png](/assets/images/")
@@ -69,6 +71,8 @@ for file in filenames:
     f.write(front_matter.format(name.replace("-", " ").title()))
     f.writelines(content)
     f.close()    
+    
+    
 
     # move file and assets
     os.system(f"mv {new_name} {post_dir}")

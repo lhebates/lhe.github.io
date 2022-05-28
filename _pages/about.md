@@ -13,11 +13,6 @@ I am Leshui He, an associate professor of economics at Bates College, Maine, U.S
 My research interests are:
 * economic behavior within and between organizations
 
-I currently teach:
-* industrial organization
-* strategies in firms and markets
-* intermediate microeconomics
-* senior thesis research seminar
 
 
 
